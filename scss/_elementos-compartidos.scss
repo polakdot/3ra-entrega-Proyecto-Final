@@ -1,0 +1,61 @@
+.btnWhatsapp {
+    background-color: $color-boton;
+    border-color: $color-boton;
+    width: $width-boton;
+    height: $height-boton;
+    border: $grosor-borde-boton;
+    font-size: $font-size-boton;
+    font-family: $fuente-boton;
+    color: $color-texto-boton;
+    margin: $margin-boton;
+    padding: $padding-boton;
+    &:hover {
+        background-color: $color-boton-form;
+    } 
+}
+
+.tituloProducto {
+    color: $color-titulo-producto;
+    font-size: $font-size-titulo-producto;
+}
+
+.descripcionProducto {
+    font-size: $font-size-descrip-producto;
+}
+
+.img-producto {
+    width: $width-img-producto;
+    transition: width 2s;
+    &:hover {
+        width: 450px;
+    } 
+}
+
+.nombre-producto {
+    font-size: $font-size-nombre-producto;
+    border-bottom-color: $color-subrayado-nombre-producto;
+    border-bottom-width: $grosor-borde-nombre-producto;
+    border-bottom-style: groove;
+    text-align: center;
+}
+
+.txt-benef-y-caract {
+    color: $color-txt-sitio;
+    font-size: $font-size-txt;
+    line-height: $interlineado-txt;
+    text-align: justify;
+}
+
+.img-benef-y-caract {
+    width: $img-benef-y-caract;
+    border-radius: $borde-img;
+}
+
+.bottonform {
+    @extend .btnWhatsapp;
+    background-color: $color-boton-form;
+    border-color: $color-boton-form;
+    font-size: $font-size-txt;
+    width: $width-botton-form;
+    height: height-botton-form;
+}

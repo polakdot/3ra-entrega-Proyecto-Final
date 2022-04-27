@@ -1,0 +1,25 @@
+{
+  "name": "root",
+  "version": "1.0.0",
+  "description": "sitio web de venta de ollas y sarténes de aluminio Essen",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss css/main.css",
+    "build-css-grids-benef-y-caract": "node-sass --include-path scss scss/grids-benef-y-caract.scss css/grids-benef-y-caract.css",
+    "build-css-grids-contacto": "node-sass --include-path scss scss/grids-contacto.scss css/grids-contacto.css",
+    "build-css-grids-header-y-footer": "node-sass --include-path scss scss/grids-header-y-footer.scss css/grids-header-y-footer.css",
+    "build-css-grids-index": "node-sass --include-path scss scss/grids-index.scss css/grids-index.css",
+    "build-css-grids-linea-grill": "node-sass --include-path scss scss/grids-linea-grill.scss css/grids-linea-grill.css",
+    "build-css-grids-linea-marsala-aqua": "node-sass --include-path scss scss/grids-linea-marsala-aqua.scss css/grids-linea-marsala-aqua.css",
+    "build-css-grids-linea-pronto": "node-sass --include-path scss scss/grids-linea-pronto.scss css/grids-linea-pronto.css",
+    "build-css-grids-recetas": "node-sass --include-path scss scss/grids-recetas.scss css/grids-recetas.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "Leandro Federico Noriega",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}

@@ -1,0 +1,55 @@
+.grid-main {
+  display: grid;
+  grid-template-areas: "titulo titulo titulo" "descripcion descripcion descripcion" "prod-1 prod-2 prod-3" "prod-4 prod-5 prod-6" "btn btn btn";
+  grid-template-rows: auto auto 1fr 1fr auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 10px; }
+
+#titulo {
+  grid-area: titulo;
+  justify-self: center;
+  margin-top: 50px; }
+
+#descripcion {
+  grid-area: descripcion;
+  justify-self: center;
+  margin-top: 10px;
+  text-align: center; }
+
+#prod-1 {
+  grid-area: prod-1;
+  justify-self: center; }
+
+#prod-2 {
+  grid-area: prod-2;
+  justify-self: center; }
+
+#prod-3 {
+  grid-area: prod-3;
+  justify-self: center; }
+
+#prod-4 {
+  grid-area: prod-4;
+  justify-self: center; }
+
+#prod-5 {
+  grid-area: prod-5;
+  justify-self: center; }
+
+#prod-6 {
+  grid-area: prod-6;
+  justify-self: center; }
+
+#btn {
+  grid-area: btn;
+  justify-self: center;
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+/* MEDIA QUERIES */
+@media all and (max-width: 1049px) {
+  .grid-main {
+    grid-template-areas: "titulo" "descripcion" "prod-1"  "prod-2"  "prod-3" "prod-4"  "prod-5"  "prod-6" "btn";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr; } }

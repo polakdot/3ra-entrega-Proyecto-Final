@@ -1,0 +1,27 @@
+.img-linea {
+    width: $width-img;
+    border-radius: $borde-img;
+    transition: width 1,5s;
+        &:hover {
+            width: 305px;
+        }
+}
+
+.lineaProducto {
+    font-size: $font-size-nombre-linea;
+    color: $color-nombre-linea;
+    text-decoration: none;
+}
+
+h4 {
+    text-align: $alineacion-nombre-linea;
+}
+
+.infoComercial{
+    font-size: $font-size-info-comercial;
+    line-height: $alineacion-info-comercial;
+}
+
+.iconos-info-comercial {
+    width: $width-icono-info-comercial;
+}
