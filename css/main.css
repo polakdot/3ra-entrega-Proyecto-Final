@@ -1,44 +1,64 @@
 @charset "UTF-8";
-/* LOGO */
-/* MENÚ */
-/* HEADER Y FOOTER */
-/* BOTÓN */
-/* IMÁGENES */
-/* NOMBRE LÍNEAS */
-/* INFO COMERCIAL */
-/* SECCIONES */
+* {
+  margin: 0;
+  /* normalización*/
+  padding: 0; }
+
+html {
+  font-size: 62.5%;
+  /* conversión de 1rem a 10px y fuente del documento */
+  font-family: 'Work Sans', sans-serif; }
+
+.inline {
+  display: inline;
+  /* elemento en línea */ }
+
+.block {
+  display: block;
+  /* elemento en bloque */ }
+
+.inline-block {
+  display: inline-block;
+  /* elemento inline-block */ }
+
 .btnWhatsapp, .bottonform {
-  background-color: #09820d;
-  border-color: #09820d;
-  width: 200px;
-  height: 40px;
-  border: 1;
-  font-size: 1.5rem;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: white;
+  background-color: white;
+  border-color: white;
+  width: 120px;
+  height: 60px;
+  border: 2px solid #07ad02;
+  font-size: 2rem;
+  font-family: "Work Sans", sans-serif;
+  color: black;
   margin: 10px;
-  padding: 5px; }
+  padding: 5px;
+  transition-duration: 0.8s;
+  cursor: pointer; }
   .btnWhatsapp:hover, .bottonform:hover {
-    background-color: #f79605; }
+    background-color: #07ad02;
+    color: white; }
 
 .tituloProducto {
   color: #f79605;
   font-size: 5rem; }
 
 .descripcionProducto {
-  font-size: 2.5rem; }
+  font-size: 2.5rem;
+  margin-bottom: 10px; }
 
 .img-producto {
   width: 350px;
-  transition: width 2s; }
+  transition: width 3s; }
   .img-producto:hover {
-    width: 450px; }
+    transform: scale(1.1); }
 
 .nombre-producto {
   font-size: 2rem;
   border-bottom-color: #f79605;
   border-bottom-width: 1px;
   border-bottom-style: groove;
+  margin-top: 8px;
+  margin-bottom: 8px;
   text-align: center; }
 
 .txt-benef-y-caract {
@@ -52,11 +72,12 @@
   border-radius: 30px; }
 
 .bottonform {
-  background-color: #f79605;
-  border-color: #f79605;
   font-size: 2rem;
   width: 175px;
-  height: height-botton-form; }
+  height: height-botton-form;
+  border: 2px solid #f79605; }
+  .bottonform:hover {
+    background-color: #f79605; }
 
 .logoTitulo {
   color: white;
@@ -95,7 +116,6 @@ ul {
       text-decoration: none;
       display: block; }
 
-/* FOOTER */
 footer {
   background-color: #f79605;
   height: 80px; }
@@ -120,7 +140,7 @@ footer {
   border-radius: 30px;
   transition: width 1,5s; }
   .img-linea:hover {
-    width: 305px; }
+    transform: scale(1.05); }
 
 .lineaProducto {
   font-size: 2.1rem;
@@ -128,7 +148,9 @@ footer {
   text-decoration: none; }
 
 h4 {
-  text-align: center; }
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px; }
 
 .infoComercial {
   font-size: 4rem;
@@ -149,34 +171,14 @@ h4 {
   padding: 5px; }
 
 .inputform {
-  width: 400px;
+  width: 280px;
   margin: 10px;
   padding: 5px; }
 
 .img-contacto {
-  width: 210px; }
+  width: 205px; }
+  .img-contacto:hover {
+    transform: scale(1.1); }
 
 p {
   font-size: 2rem; }
-
-/* normalización*/
-* {
-  margin: 0;
-  padding: 0; }
-
-/* conversión de 1rem a 10px y fuente del documento */
-html {
-  font-size: 62.5%;
-  font-family: 'Work Sans', sans-serif; }
-
-.inline {
-  display: inline;
-  /* elemento en línea */ }
-
-.block {
-  display: block;
-  /* elemento en bloque */ }
-
-.inline-block {
-  display: inline-block;
-  /* elemento inline-block */ }

@@ -1,55 +1,55 @@
-/* LOGO */
 $color-logo: white;
 $font-size-logo: 4.5rem;
 
-/* MENÚ */
 $color-menu: #f79605;
 $color-secciones-menu: white;
 $font-size-menu: 2.1rem;
 
-/* HEADER Y FOOTER */
 $color-header-footer: #f79605;
 $width-redes: 30px;
 
-/* BOTÓN */
-$color-boton: #09820d;
-$width-boton: 200px;
-$height-boton: 40px;
-$grosor-borde-boton: 1;
-$font-size-boton: 1.5rem;
-$fuente-boton: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-$color-texto-boton: white;
+$color-boton: white;
+$width-boton: 120px;
+$height-boton: 60px;
+$grosor-borde-boton: 2px solid #07ad02;
+$font-size-boton: 2rem;
+$fuente-boton: 'Work Sans', sans-serif;
+$color-texto-boton: black;
 $margin-boton: 10px;
 $padding-boton: 5px;
+$color-boton-cursor: #07ad02;
+$color-text-boton-cursor: white;
+$width-botton-form: 175px;
+$height-botton-form: 75px;
+$grosor-borde-boton-form: 2px solid #f79605;
+$color-boton-form-cursor: #f79605;
 
-/* IMÁGENES */
 $width-img: 300px;
 $borde-img: 30px;
 
-/* NOMBRE LÍNEAS */
 $font-size-nombre-linea: 2.1rem;
 $color-nombre-linea: #000000;
 $alineacion-nombre-linea: center;
+$margin-top-nombre-linea: 10px;
+$margin-bottom-nombre-linea: 10px;
 
-/* INFO COMERCIAL */
 $font-size-info-comercial: 4rem;
 $alineacion-info-comercial: 2;
 $width-icono-info-comercial: 25px;
 
-/* SECCIONES */
 $color-titulo-producto: #f79605;
 $font-size-titulo-producto: 5rem;
 $font-size-descrip-producto: 2.5rem;
+$margin-bottom-descripcion-producto: 10px;
 $width-img-producto: 350px;
 $font-size-nombre-producto: 2rem;
 $color-subrayado-nombre-producto: #f79605;
 $grosor-borde-nombre-producto: 1px;
+$margin-top-nombre-producto: 8px;
+$margin-bottom-nombre-producto: 8px;
 $color-txt-sitio: #000000;
 $font-size-txt: 2rem;
 $interlineado-txt: 1,5;
 $img-benef-y-caract: 650px;
-$color-boton-form: #f79605;
-$width-botton-form: 175px;
-$height-botton-form: 75px;
-$img-contacto: 210px;
+$img-contacto: 205px;
 $font-size-subtitulo-recetas: 4rem;

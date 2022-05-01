@@ -4,27 +4,3 @@
 @import "index";
 @import "recetas";
 @import "contacto";
-
-/* normalización*/
-*{
-    margin: 0;
-    padding: 0;
-}
-
-/* conversión de 1rem a 10px y fuente del documento */
-html {
-    font-size: 62.5%;
-    font-family: 'Work Sans', sans-serif;
-}
-
-.inline {
-    display: inline; /* elemento en línea */
-}
-
-.block {
-    display: block; /* elemento en bloque */
-}
-
-.inline-block {
-    display: inline-block; /* elemento inline-block */
-}

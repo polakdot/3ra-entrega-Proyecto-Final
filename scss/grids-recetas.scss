@@ -1,20 +1,24 @@
 .grid-main {
     display: grid;
     grid-template-areas: 
-        "titulo titulo titulo titulo"
-        "descripcion descripcion descripcion descripcion"
-        "subt-1 subt-1 subt-1 subt-1"
-        "receta-1 receta-1 receta-2 receta-2"
-        "nombre-receta-1 nombre-receta-1 nombre-receta-2 nombre-receta-2"
-        "receta-3 receta-3 receta-3 receta-3"
-        "nombre-receta-3 nombre-receta-3 nombre-receta-3 nombre-receta-3"
-        "subt-2 subt-2 subt-2 subt-2"
-        "receta-4 receta-4 receta-5 receta-5"
-        "nombre-receta-4 nombre-receta-4 nombre-receta-5 nombre-receta-5"
-        "receta-6 receta-6 receta-6 receta-6"
-        "nombre-receta-6 nombre-receta-6 nombre-receta-6 nombre-receta-6";
-    grid-template-rows: auto auto auto 1fr auto auto auto auto 1fr auto auto auto;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+        "titulo"
+        "descripcion"
+        "subt-1"
+        "receta-1"
+        "nombre-receta-1"
+        "receta-2" 
+        "nombre-receta-2"
+        "receta-3"
+        "nombre-receta-3"
+        "subt-2"
+        "receta-4"
+        "nombre-receta-4"
+        "receta-5"
+        "nombre-receta-5"
+        "receta-6"
+        "nombre-receta-6";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
     grid-row-gap: 10px;
 }
 
@@ -32,93 +36,80 @@
 
 #subt-1 {
     grid-area: subt-1;
-    justify-self: start;
+    justify-self: center;
     text-align: center;
     margin-left: 15px;
 }
 
 #receta-1 {
     grid-area: receta-1;
-    justify-self: start;
-    margin-left: 15px;
+    justify-self: center;
 }
 
 #receta-2 {
     grid-area: receta-2;
-    justify-self: end;
-    margin-right: 15px;
+    justify-self: center;
 }
 
 #receta-3 {
     grid-area: receta-3;
-    justify-self: start;
-    margin-left: 15px;
+    justify-self: center;
 }
 
 #nombre-receta-1 {
     grid-area: nombre-receta-1;
-    justify-self: start;
-    margin-left: 15px;
+    justify-self: center;
     margin-bottom: 20px;
 }
 
 #nombre-receta-2 {
     grid-area: nombre-receta-2;
-    justify-self: end;
-    margin-right: 15px;
+    justify-self: center;
     margin-bottom: 20px;
 }
 
 #nombre-receta-3 {
     grid-area: nombre-receta-3;
-    justify-self: start;
-    margin-left: 15px;
+    justify-self: center;
     margin-bottom: 20px;
 }
 
 #subt-2 {
     grid-area: subt-2;
-    justify-self: start;
+    justify-self: center;
     text-align: center;
-    margin-left: 15px;
 }
 
 #receta-4 {
     grid-area: receta-4;
-    justify-self: start;
-    margin-left: 15px;
+    justify-self: center;
 }
 
 #receta-5 {
     grid-area: receta-5;
-    justify-self: end;
-    margin-right: 15px;
+    justify-self: center;
 }
 
 #receta-6 {
     grid-area: receta-6;
-    justify-self: start;
-    margin-left: 15px;
+    justify-self: center;
 }
 
 #nombre-receta-4 {
     grid-area: nombre-receta-4;
-    justify-self: start;
-    margin-left: 15px;
+    justify-self: center;
     margin-bottom: 20px;
 }
 
 #nombre-receta-5 {
     grid-area: nombre-receta-5;
-    justify-self: end;
-    margin-right: 15px;
+    justify-self: center;
     margin-bottom: 20px;
 }
 
 #nombre-receta-6 {
     grid-area: nombre-receta-6;
-    justify-self: start;
-    margin-left: 15px;
+    justify-self: center;
     margin-bottom: 20px;
 }
 
@@ -144,7 +135,7 @@
         "receta-6"
         "nombre-receta-6";
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr
+        grid-template-rows: 1fr;
     }
     
     #subt-1 {
@@ -210,5 +201,24 @@
     
     #nombre-receta-6 {
         display: none;
+    }
+}
+
+@media all and (max-width: 565px) {
+.container-iframe {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+    }
+  
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
     }
 }
